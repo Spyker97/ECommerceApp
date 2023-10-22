@@ -5,6 +5,13 @@
       <list>
         <option value="$PROJECT_DIR$/Cloud-getway-service-master/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaServer-master/pom.xml" />
+        <option value="$PROJECT_DIR$/Cloud-getway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceFournisseur-main/pom.xml" />
+        <option value="$PROJECT_DIR$/ServicePanier-master/pom.xml" />
+        <option value="$PROJECT_DIR$/commandeService-master/pom.xml" />
+        <option value="$PROJECT_DIR$/service-product-main/pom.xml" />
+        <option value="$PROJECT_DIR$/FactureMS-master/pom.xml" />
+        <option value="$PROJECT_DIR$/service-product-main/bin/pom.xml" />
       </list>
     </option>
   </component>

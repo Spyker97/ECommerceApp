@@ -9,14 +9,7 @@ spring:
               - Path=/fournisseurs/**
 
 
-    application:
-      name: API-GETWAY
-server:
-  port: 8081
 
 
-eureka:
-  client:
-      service-url:
-        defaultZone: http://localhost:8761/eureka/
+
 

@@ -3,7 +3,23 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Cloud-getway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Cloud-getway-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaServer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FactureMS-master/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FactureMS-master/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServiceFournisseur-main/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServiceFournisseur-main/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServiceFournisseur/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServiceFournisseur/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServicePanier-master/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServicePanier-master/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commandeService-master/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commandeService-master/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaServer-master/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaServer-master/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-product-main/bin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-product-main/bin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-product-main/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-product-main/src/main/resources" charset="UTF-8" />
   </component>
 </project>

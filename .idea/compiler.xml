@@ -6,19 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Eureka" />
+        <module name="ServicePanier" />
+        <module name="ecommerce-product" />
+        <module name="produit" />
         <module name="cloud-gateway-service" />
+        <module name="FournisseurService1.0" />
+        <module name="FactureMS" />
+        <module name="commande" />
+        <module name="Eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-gateway-service" target="1.8" />
+      <module name="commande" target="1.8" />
+      <module name="ecommerce-product" target="1.8" />
       <module name="Eureka" target="1.8" />
+      <module name="FactureMS" target="1.8" />
+      <module name="FournisseurService1.0" target="1.8" />
+      <module name="produit" target="1.8" />
+      <module name="ServicePanier" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Eureka" options="-parameters" />
+      <module name="FactureMS" options="-parameters" />
+      <module name="FournisseurService1.0" options="-parameters" />
+      <module name="ServicePanier" options="-parameters" />
       <module name="cloud-gateway-service" options="-parameters" />
+      <module name="commande" options="-parameters" />
+      <module name="ecommerce-product" options="-parameters" />
+      <module name="produit" options="-parameters" />
     </option>
   </component>
 </project>
