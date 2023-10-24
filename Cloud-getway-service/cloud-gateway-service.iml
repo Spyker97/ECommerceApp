@@ -144,4 +144,7 @@
     <orderEntry type="library" name="Maven: io.reactivex:rxjava-reactive-streams:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="c9c8a84b-cffd-4e5f-b241-e294ee8ae866" />
+  </component>
 </module>

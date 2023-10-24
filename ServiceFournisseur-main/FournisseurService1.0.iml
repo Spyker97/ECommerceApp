@@ -176,4 +176,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.23" level="project" />
     <orderEntry type="library" name="Maven: com.stoyanr:evictor:1.0.0" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="e5d16244-e531-40ae-aa9f-0d2522564b4a" />
+  </component>
 </module>

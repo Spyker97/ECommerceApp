@@ -33,7 +33,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 public class FactureRestApi {
 	@Autowired
 	IFactureService factureService;
-	@PostMapping("/add")
+	@PostMapping("/addFact")
 	@ResponseBody
 	public Facture  addfacture(@RequestBody Facture s)throws Exception {
 		 return factureService.addFacture(s);
