@@ -19,8 +19,8 @@ public class KeycloakConfig {
     static Keycloak keycloak=null;
     final static String serverUrl = "http://localhost:8180/auth";
     public final static String realm = "Cloud-Gateway-Success";
-    public final static String clientId = "candidat-service";
-    final static String clientSecret = "b4c96836-ad53-4a6e-88ce-7c912a301e69";
+    public final static String clientId = "gateway";
+    final static String clientSecret = "452f6bd4-36b9-4c46-bba2-267eb83a5921";
     static String userName = "admin";
     static String password = "admin";
 
