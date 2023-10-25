@@ -31,11 +31,11 @@ const FactureAdd = () => {
 
   const onSubmit = async (e) => {
     //  e.preventDefault();
-    axios.post("http://localhost:8089/factures/add", formFacture);
+    axios.post("http://localhost:8084/factures/add", formFacture);
   };
 
   const deleteFacture = async (id) => {
-    axios.delete("http://localhost:8089/factures/remove-facture/" + id);
+    axios.delete("http://localhost:8084/factures/remove-facture/" + id);
   };
 
   return (

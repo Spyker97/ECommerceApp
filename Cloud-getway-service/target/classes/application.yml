@@ -1,4 +1,15 @@
+server:
+  port: 8089
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+
+
 spring:
+<<<<<<< Updated upstream
     cloud:
       gateway:
         routes:
@@ -31,6 +42,36 @@ spring:
           provider:
             my-provider:
               issuer-uri: http://localhost:8181/realms/test
+=======
+  application.name: API-gateway-client
+  cloud:
+    gateway:
+      routes:
+        - id: resources
+          uri: http://localhost:8092/produits
+          predicates:
+            Path=/produits/**
+          filters:
+            - AddResponseHeader=Authorization, Bearer {jwt}
+
+
+
+  security:
+    oauth2:
+      client:
+        registration:
+          gateway:
+            provider: my-provider
+            client-id: apiGateway
+            client-secret: nUTv9llzLDKAXQ7vv3eIsO0kTTvR4HqH
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://localhost:3000"
+            scope: openid, client , admin
+        provider:
+          my-provider:
+            issuer-uri: http://localhost:8181/realms/test
+
+>>>>>>> Stashed changes
 
 
 

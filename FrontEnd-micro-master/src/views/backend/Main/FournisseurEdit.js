@@ -13,7 +13,7 @@ const FournisseurEdit = () => {
 
   //get data form api
   const getFournisseurByID = () => {
-    axios.get(`http://localhost:8089/fournisseurs/${id}`).then((response) => {
+    axios.get(`http://localhost:8099/fournisseurs/${id}`).then((response) => {
       setNom(response.data.nom);
       setPrenom(response.data.prenom);
       setEmail(response.data.email);
@@ -22,7 +22,7 @@ const FournisseurEdit = () => {
 
   // update fournisseur axios put request
     const updateFournisseur = () => {
-        axios.put(`http://localhost:8089/fournisseurs/${id}`, {
+        axios.put(`http://localhost:8099/fournisseurs/${id}`, {
             nom: nom,
             prenom: prenom,
             email: email,

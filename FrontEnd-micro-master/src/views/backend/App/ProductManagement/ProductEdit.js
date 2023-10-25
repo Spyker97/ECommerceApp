@@ -42,7 +42,7 @@ export default function ProductEdit() {
 
     async function getdataProduct() {
         axios
-          .get(`http://localhost:8089/produits/getProductById/` + id, {
+          .get(`http://localhost:8092/produits/getProductById/` + id, {
             headers: { "Access-Control-Allow-Origin": "*" },
           })
           .then((res) => {
@@ -63,7 +63,7 @@ export default function ProductEdit() {
     }, [id])
 
     const onSubmit = async (e) => {
-        axios.put("http://localhost:8089/produits/" + id,
+        axios.put("http://localhost:8092/produits/" + id,
         {
             productName:productName,
             price:price,

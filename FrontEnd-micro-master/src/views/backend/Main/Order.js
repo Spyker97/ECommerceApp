@@ -101,14 +101,14 @@ const Order = ()=>{
     
 
     const getOrders=async()=>{
-        const res=await axios.get('http://localhost:8089/paniers/getAllPaniers').then(res=>{
+        const res=await axios.get('http://localhost:8062/paniers/getAllPaniers').then(res=>{
             setOrders(res.data)
             console.log(res.data)
         })
     }
 
     const deleteOrder=async(id)=>{
-        await axios.delete(`http://localhost:8089/paniers/deletePanierById/${id}`)
+        await axios.delete(`http://localhost:8062/paniers/deletePanierById/${id}`)
         window.location.reload()
     }
 

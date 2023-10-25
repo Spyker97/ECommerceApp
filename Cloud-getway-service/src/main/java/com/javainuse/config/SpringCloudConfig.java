@@ -33,8 +33,8 @@ public class SpringCloudConfig {
                         .id("ff"))
                 .route(r -> r.path("/users/**")
                         .uri("lb://USERSERVICEMONGO")
-                        .id("ff"))            
+                        .id("ff"))
                 .build();
     }
-    
+
 }

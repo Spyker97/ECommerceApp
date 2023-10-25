@@ -16,7 +16,7 @@ const Fournisseurnew = () => {
     const addFournisseur = () => {
         console.log(nom, prenom, email);
         axios
-            .post("http://localhost:8089/fournisseurs/", {
+            .post("http://localhost:8099/fournisseurs/", {
                 nom: nom,
                 prenom: prenom,
                 email: email,

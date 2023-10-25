@@ -16,7 +16,7 @@ const OrderEdit = () => {
 
   //get data form api
   const getOrderByID = () => {
-    axios.get(`http://localhost:8089/paniers/getPanierById/${id}`).then((response) => {
+    axios.get(`http://localhost:8062/paniers/getPanierById/${id}`).then((response) => {
       setOrder(response.data);
       setIdProduit(response.data.idProduit);
       setIdUser(response.data.idUser);
@@ -28,7 +28,7 @@ const OrderEdit = () => {
   //update order axios put request
     const updateOrder = () => {
         
-        axios.put(`http://localhost:8089/paniers/updatePanier/${id}`, {
+        axios.put(`http://localhost:8062/paniers/updatePanier/${id}`, {
             idUser: idUser,
             idProduit: idProduit,
             total: total,

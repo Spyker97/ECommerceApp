@@ -22,11 +22,11 @@ export default function Product() {
 //    };
 
    async function fetchproducts() {
-fetch('http://localhost:8089/produits/retrieveProduits').then(data => data.json()).then (data => setProduct(data))
+fetch('http://localhost:8092/produits/retrieveProduits').then(data => data.json()).then (data => setProduct(data))
    }
   
    const deleteProduct = async (id) => {
-    axios.delete("http://localhost:8089/produits/" + id);
+    axios.delete("http://localhost:8092/produits/" + id);
     window.location.reload(false);
     
   }; 

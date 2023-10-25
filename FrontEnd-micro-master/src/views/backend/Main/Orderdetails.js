@@ -16,7 +16,7 @@ const Orderdetails =()=>{
     const [order, setOrder] = React.useState({});
     //get data form api
     const getOrderByID = () => {
-        axios.get(`http://localhost:8089/paniers/getPanierById/${id}`).then((response) => {
+        axios.get(`http://localhost:8062/paniers/getPanierById/${id}`).then((response) => {
             setOrder(response.data);
         });
     };

@@ -10,7 +10,7 @@ const Fournisseur = () => {
 
     //get all fournisseurs
     const getFournisseurs = async () => {
-        const res = await axios.get('http://localhost:8089/fournisseurs/getAllFournisseur').then(res => {
+        const res = await axios.get('http://localhost:8099/fournisseurs/getAllFournisseur').then(res => {
             setFournisseurs(res.data)
             console.log(res.data)
         })
@@ -18,7 +18,7 @@ const Fournisseur = () => {
 
     //delete fournisseur
     const deleteFournisseur = async (id) => {
-        await axios.delete(`http://localhost:8089/fournisseurs/${id}`)
+        await axios.delete(`http://localhost:8099/fournisseurs/${id}`)
         window.location.reload()
     }
 

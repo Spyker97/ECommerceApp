@@ -52,7 +52,7 @@ export default function ProductAdd() {
         
  
         let result = ''
-        axios.post("http://localhost:8089/produits", {
+        axios.post("http://localhost:8092/produits", {
             productName:productName,
             price:price,
             category:category,
